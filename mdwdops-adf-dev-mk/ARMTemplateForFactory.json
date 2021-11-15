@@ -122,7 +122,8 @@
 						}
 					},
 					{
-						"name": "Set infilefolder",
+						"name": "Set infile folder",
+						"description": "Hello Amprion",
 						"type": "SetVariable",
 						"dependsOn": [],
 						"userProperties": [],
@@ -139,7 +140,7 @@
 						"type": "Copy",
 						"dependsOn": [
 							{
-								"activity": "Set infilefolder",
+								"activity": "Set infile folder",
 								"dependencyConditions": [
 									"Succeeded"
 								]
@@ -193,7 +194,7 @@
 						"type": "Copy",
 						"dependsOn": [
 							{
-								"activity": "Set infilefolder",
+								"activity": "Set infile folder",
 								"dependencyConditions": [
 									"Succeeded"
 								]
